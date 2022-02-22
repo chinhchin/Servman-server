@@ -1,13 +1,13 @@
 # **Versions Info**
 ## **Versions**
-> ### **0**
+> ## **0**
 > > ## **0.0**
 > > > ### **0.0.a**
 > > > > ### **0.0.a.0**
 > > > > ### ***Tasks List***
 > > > > Task | Done? | Know?
 > > > > --- | --- | ---
-> > > > ({do all feature}) | [ ] | [ ]
+> > > > ({do all features}) | [ ] | [ ]
 ---
 ## **Features**
 > ## **Future**
