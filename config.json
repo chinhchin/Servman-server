@@ -1,0 +1,14 @@
+{
+    "general": {
+        "name": "chinchin"
+    },
+    "domain": {
+        "isDomain": true,
+        "domainName": "www.everychats.com",
+        "isAutoCorrectDomainName": true
+    },
+    "server": {
+        "port": 443,
+        "ssl": true
+    }
+}
