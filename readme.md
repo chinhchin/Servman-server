@@ -24,4 +24,4 @@ Servman is the server manager to manage server and web page in one server;
 
 > ### **If you wanna use https server you have to**
 > - create cert.pem, chain.pem and key.pem at ./ path.
-> - if you dont know where to get it we suggest at certbot
+> - if you dont know where to get it we suggest at certbot.
