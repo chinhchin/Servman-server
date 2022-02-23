@@ -1,12 +1,16 @@
 import https from 'https';
+import http from 'http';
 import fs from 'fs';
 
-https.createServer({
-    key: fs.readFileSync('./cert/key.pem'),
-    cert: fs.readFileSync('./cert/cert.pem'),
-    ca: fs.readFileSync('./cert/chain.pem')
-},
-    (req, res) => {
-        res.end('hello from secure data');
+//server
+import { HttpsServer } from './servers/httpsServer';
+
+class Main {
+    constructor() {
+        new HttpsServer();
     }
-).listen(443);
+}
+
+const main = () => new Main();
+
+main();

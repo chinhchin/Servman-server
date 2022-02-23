@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nodemon ./src/main.ts",
     "build": "rimraf ./build/ && tsc",
-    "start": "npm run build && node ./build/main.js"
+    "prestart": "npm run build",
+    "start": "node ./build/main.js"
   },
   "author": "chinhchin",
   "license": "MIT",
